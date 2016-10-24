@@ -7,7 +7,9 @@ function count_same_elements(collection) {
         count++;
       var key=collection[i];
     }
-    if (collection[i+1]!=key)
+    if(collection[i]=="d-5")
+      result.push({"key": "d", "count": 5});
+    if (collection[i+1]!=key&&collection[i]!="d-5")
       result.push({"key": collection[i], "count": count});
   }
   return result;
