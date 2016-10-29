@@ -9,9 +9,3 @@ function collect_same_elements(collection_a,collection_b) {
   }
   return result;
 }
-
-var collection_a = ["a", "e", "h", "t", "f", "c", "g", "b", "d"];
-var collection_b = [["a", "d", "e", "f"]];
-var result = collect_same_elements(collection_a, collection_b);
-
-expect(result).toEqual(["a", "e", "f", "d"]);
