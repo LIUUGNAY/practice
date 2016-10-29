@@ -6,6 +6,7 @@ function count_same_elements(collection) {
   // var object=new Object();
   result[0].key = collection[0];
   result[0].count = 0;
+
   for (var i = 0; i < collection.length; i++) {
     if (collection[i] === result[j].key)
       result[j].count++;

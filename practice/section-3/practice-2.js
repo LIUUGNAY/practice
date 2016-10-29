@@ -1,5 +1,6 @@
 function create_updated_collection(collection_a, object_b) {
   var result=[];
+
   for (var i=0;i<collection_a.length;i++)
   {
     for (var j=0;j<object_b.value.length;j++)

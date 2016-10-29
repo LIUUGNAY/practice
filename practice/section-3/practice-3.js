@@ -6,7 +6,7 @@ function create_updated_collection(collection_a, object_b) {
     c[i]={};
   // var object=new Object();
   c[0].key = collection_a[0];
- c[0].count = 0;
+  c[0].count = 0;
   for (var i = 0; i < collection_a.length; i++) {
     if (collection_a[i] === c[j].key)
       c[j].count++;

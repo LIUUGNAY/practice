@@ -11,12 +11,14 @@ function count_same_elements(collection) {
     if (collection[i].length == 1) {
       if (collection[i] === result[j].name)
         result[j].summary++;
+
       else {
         ++j;
         result[j].name = collection[i];
         result[j].summary = 1;
       }
     }
+
     else {
       newarray = collection[i].split("");
       if (newarray[0] === result[j].name)
